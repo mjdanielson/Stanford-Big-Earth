@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +29,9 @@
             mapboxgl.accessToken = 'pk.eyJ1IjoibWpkYW5pZWxzb24iLCJhIjoiY2p2bzFlbnZ5MW5pbTN5cGJ2YWp2MW9vaiJ9.kAaZq3iyJwvrMLK7XDs_qw';
             var map = new mapboxgl.Map({
             container: 'map', // container id
-            style: 'mapbox://styles/mjdanielson/ck9brm73k01zu1ill4rypk6hq' // replace this with your style URL
+            style: 'mapbox://styles/mjdanielson/ck9brm73k01zu1ill4rypk6hq', // replace this with your style URL 
+            center: [-54.643, -12.472],
+            zoom: 3 
           });
 
           // disable map zoom when using scroll
