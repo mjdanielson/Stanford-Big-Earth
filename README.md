@@ -3,7 +3,7 @@
 ## Introduction to Digital Mapping
 
 - [The slides](https://docs.google.com/presentation/d/1JKUWc3MCxTqPIR3_NAJZeqyKGS0lpzGFfdhH5tzUw7E/edit#slide=id.g6f7428e048_0_2)
-- [The map]()
+- [The map](https://mjdanielson.github.io/Stanford-Big-Earth/)
 
 ## Resources
 
