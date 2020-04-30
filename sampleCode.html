@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css' rel='stylesheet' />
+    </head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;}
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            }
+    </style>
+    <body>
+        <div id='map'></div>
+        <script>
+            
+            mapboxgl.accessToken = '<insert access token here!>';
+            var map = new mapboxgl.Map({
+            container: 'map', // container id
+            style: '<replace with your style URL>', // replace this with your style URL 
+            center: [-54.643, -12.472],
+            zoom: 3 
+          });
+
+          // disable map zoom when using scroll
+            map.scrollZoom.disable();
+        </script>
+      
+    </body>
+</html>
